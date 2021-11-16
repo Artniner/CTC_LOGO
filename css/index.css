@@ -1,0 +1,109 @@
+/**
+ *
+ * Apply your custom CSS here
+ *
+*/
+
+*{
+	margin:0;
+	padding:0;
+	color:#ffffff;
+}
+
+body {
+	background:#000000;
+}
+
+
+.continer{
+	width:60%;
+	height:100%;
+	margin:auto;
+	padding-top:7vh;
+}
+
+.logo-field{
+	position:relative;
+	width:100%;
+}
+
+.logo-field img{
+	display:block;
+	margin:auto;
+	width:100%;
+}
+
+.cli-field{
+	font-size:4.4vw;
+	padding-top:6%;
+	padding-bottom:6%;
+}
+
+.des-field{
+	font-size: 2.8vw;
+    position: absolute;
+    top: 49%;
+    left: 28%;
+}
+
+.des-field p{
+	padding-top:1%;
+	padding-bottom:2%;
+}
+
+
+.input-slider p, .input-btn p{
+	padding-top:2%;
+	padding-bottom:1%;
+}
+
+.input-btn button{
+	width:10vw;
+	height:10vw;
+}
+
+#btn-white{
+	background:#ffffff;
+}
+
+#btn-black{
+	background:#000000;
+}
+
+.input-slider input{
+	width:100%;
+}
+
+.input-text p{
+	padding-top:2%;
+	padding-bottom:1%;
+}
+
+.input-text input, .input-text textarea{
+	width:100%;
+	color:#000000;
+}
+
+@media (min-width: 768px){
+	.continer{
+		width:20%;
+	}
+	
+	.cli-field{
+		font-size:1.4vw;
+	}
+	
+	.des-field{
+		font-size: 0.87vw;
+	}
+	
+	.des-field p{
+		padding-top:2%;
+		font-size: 0.96vw;
+	}
+	
+	.input-btn button {
+		width: 2vw;
+		height: 2vw;
+	}
+}
